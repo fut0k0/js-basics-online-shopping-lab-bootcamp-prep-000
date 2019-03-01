@@ -25,7 +25,11 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else {
     var list = []
-    for ()
+    for (var i = 0; i < cart.length; i++ ) {
+      
+      
+      
+    }
     
     
     
