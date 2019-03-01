@@ -37,6 +37,7 @@ function viewCart() {
 }
 
 function total() {
+  var cost = 0 
   
   
   
