@@ -46,7 +46,12 @@ function total() {
 
 function removeFromCart(item) {
   var match = 0
-  while
+  while (match === 0) {
+    if ()
+    
+    
+    
+  }
   
   
 }
