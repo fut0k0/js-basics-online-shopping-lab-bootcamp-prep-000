@@ -25,10 +25,11 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else {
     var list = []
-    for (var i = 0; i < cart.length; i++ ) {
+    for (var i = 0; i < cart.length - 1; i++ ) {
       list[i] = " " + cart[i].itemName + " at $" + cart[i].itemPrice
     }
-    return "In your cart, you have" + list + "."
+    list[cart.length - 1] = " and " + cart[cart.length -1].itemName + " at $" + cart[cart.length - 1].itemPrice + "."
+    return "In your cart, you have" + list
     
     
   }
