@@ -33,12 +33,7 @@ function viewCart() {
     }
     list[cart.length - 1] = " and " + cart[cart.length -1].itemName + " at $" + cart[cart.length - 1].itemPrice + "."
     return "In your cart, you have" + list
-    
-    
-  }
-  
-  
-  
+    }
 }
 
 function total() {
