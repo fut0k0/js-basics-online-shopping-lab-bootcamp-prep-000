@@ -45,15 +45,10 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var index = 0
-  while (match === 0) {
-    for (var i = 0)
-    if (item === cart[index].itemName) {
+  for (var i = 0; i < cart.length; i++) {
+    if (cart[i].itemName = item) {
       
     }
-    
-    
-    
   }
   
   
