@@ -25,7 +25,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else {
     var list = []
-    
+    for ()
     
     
     
