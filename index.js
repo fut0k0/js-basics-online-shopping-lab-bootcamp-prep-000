@@ -45,8 +45,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-  
-  
+  var match = 0
+  while
   
   
 }
