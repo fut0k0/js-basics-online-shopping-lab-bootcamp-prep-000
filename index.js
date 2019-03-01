@@ -30,7 +30,7 @@ function viewCart() {
       
       
     }
-    
+    return "In your cart, you have " + list
     
     
   }
