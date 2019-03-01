@@ -26,7 +26,7 @@ function viewCart() {
   } else {
     var list = []
     for (var i = 0; i < cart.length; i++ ) {
-      
+      list[i] = cart[i].itemName + " at $" + cart[i].itemPrice
       
       
     }
